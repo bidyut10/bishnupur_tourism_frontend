@@ -1,0 +1,153 @@
+/* ---------------------------------------------Global CSS--------------------------------------------- */
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+body {
+  background-color: rgb(255, 255, 255);
+}
+.varela {
+  font-family: "Varela Round", sans-serif;
+}
+.flex_box {
+  display: flex;
+  align-items: center;
+}
+.curser_pointer {
+  cursor: pointer;
+}
+.text_decoration {
+  text-decoration: none;
+}
+.display_block {
+  display: block;
+}
+.contact_bg {
+  background-color: rgb(255, 255, 255);
+}
+.bg_ticket {
+  background-color: white;
+  width: fit-content;
+  height: auto;
+  background-size: cover;
+}
+.bg_home {
+  background-image: url("./assets//homebg.jpg");
+}
+/* ---------------------------------------------Button CSS--------------------------------------------- */
+.userbtn {
+  margin: 5px;
+  width: 30px;
+  height: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.07);
+  border-radius: 50%;
+  border: 8px solid white;
+  outline: none;
+  border: none;
+}
+/*--------------------------------------------------Side Navbar---------------------------------------- */
+.side-navbar {
+  position: fixed;
+  top: 0;
+  left: -300px;
+  width: 300px;
+  height: 100%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease-in-out;
+  z-index: 1000;
+}
+.side-navbar.open {
+  left: 0;
+}
+.toggle-button {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  width: 32px;
+  height: 31px;
+  background-color: transparent;
+  border: none;
+  z-index: 1001;
+}
+.navlogo {
+  margin-top: 100px;
+  width: 220px;
+  height: 80px;
+  text-align: center;
+}
+.menuimg {
+  width: 32px;
+  height: 31px;
+  margin-bottom: 4px;
+  transition: all 0.3s ease-in-out;
+}
+.navbar_menu {
+  padding: 40px 20px;
+}
+.navbar_menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin: 40px 0px;
+}
+.navbar_menu li {
+  margin-bottom: 10px;
+}
+.main_menu {
+  font-size: 17px;
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  font-weight: 700;
+}
+.secondary-navul {
+  justify-content: space-between;
+  padding: 0px;
+  border-top: 1px solid #ccc;
+  margin: 40px 0px;
+  list-style-type: none;
+}
+.slidebtn {
+  margin: 40px 0px;
+}
+/* -------------------------------------------------Home-page------------------------------------------- */
+.homeimg {
+  background-image: url("./assets/homebg.jpg");
+}
+/* -------------------------------------------Service_info_img----------------------------------------- */
+.service_info_img {
+  width: 40%;
+  height: 100%;
+}
+/* --------------------------------------------Ticketpage--------------------------------------------*/
+.ticket_section {
+  justify-content: center;
+  padding: 0px 40px;
+}
+.tick_container {
+  width: 50%;
+}
+.tick_container1 {
+  background-color: white;
+  margin: 10px;
+}
+.contact_img {
+  width: 80%;
+  margin: 20px;
+}
+/* -------------------------------------------Footer Page----------------------------------------- */
+.footer_img img {
+  width: fit-content;
+  height: auto;
+  background-color: black;
+}
+/* -------------------------------------------Responsive CSS----------------------------------------- */
+@media only screen and (max-width: 900px) {
+  .service_info_img {
+    width: fit-content;
+    height: 100%;
+    margin-bottom: 50px;
+  }
+  .hero-content {
+    margin: 50px;
+  }
+  .contact_img {
+    width: 100%;
+  }
+}
