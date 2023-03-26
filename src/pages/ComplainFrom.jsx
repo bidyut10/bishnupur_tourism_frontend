@@ -22,7 +22,7 @@ const ComplainFrom = () => {
 
   const sendReq = async () => {
     const res = await axios
-      .post("http://localhost:3001/createcomplaint", {
+      .post("https://bishnupurtourismbackend-production.up.railway.app/createcomplaint", {
         name: inputs.name,
         phone: inputs.phone,
         msg: inputs.msg,

@@ -26,7 +26,7 @@ const AdminPage = () => {
     };
 
     const res = await axios
-      .get(`http://localhost:3001/adminpage/${inputs.bookingID}`, config)
+      .get(`https://bishnupurtourismbackend-production.up.railway.app/adminpage/${inputs.bookingID}`, config)
       .catch((err) => console.log(err));
 
     const data = await res.data;

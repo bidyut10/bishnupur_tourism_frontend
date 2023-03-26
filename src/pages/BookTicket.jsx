@@ -24,7 +24,7 @@ const BookTicket = () => {
 
   const sendReq = async () => {
     const res = await axios
-      .post("http://localhost:3001/createorder", {
+      .post("https://bishnupurtourismbackend-production.up.railway.app/createorder", {
         name: inputs.name,
         phone: inputs.phone,
         noOfTickets: inputs.noOfTickets,

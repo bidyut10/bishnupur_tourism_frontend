@@ -18,14 +18,14 @@ const TicketDetails = ({
   const navigate = useNavigate();
   const cancleTicket = async () => {
     await axios
-      .put(`http://localhost:3001/adminpage/cancle/${bkID}`)
+      .put(`https://bishnupurtourismbackend-production.up.railway.app/adminpage/cancle/${bkID}`)
       .then(() => alert("Cancled !!!"))
       .then(navigate("/adminpage"))
       .catch((err) => alert(err.message));
   };
   const checkedInTicket = async () => {
     await axios
-      .put(`http://localhost:3001/adminpage/checkedin/${bkID}`)
+      .put(`https://bishnupurtourismbackend-production.up.railway.app/adminpage/checkedin/${bkID}`)
       .then(() => alert("Checked In !!!"))
       .then(navigate("/adminpage"))
       .catch(() => alert(err.message));

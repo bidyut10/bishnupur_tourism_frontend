@@ -18,7 +18,7 @@ export const Login = () => {
 
   const sendReq = async () => {
     const res = await axios
-      .post("http://localhost:3001/login", {
+      .post("https://bishnupurtourismbackend-production.up.railway.app/login", {
         password: inputs.password,
         email: inputs.email,
       })
