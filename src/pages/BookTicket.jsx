@@ -129,7 +129,7 @@ const BookTicket = () => {
                   value={inputs.bookingDate}
                   name="bookingDate"
                   id="bookingDate"
-                  placeholder="Date"
+                  placeholder="YYYY-MM-DD"
                   className="input input-bordered"
                   required
                 />

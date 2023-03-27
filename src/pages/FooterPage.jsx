@@ -51,7 +51,7 @@ const FooterPage = () => {
         </div>
         <div>
           <p className="varela text-white">
-            Copyright © 2023 - All right The Bcom Guy
+            Copyright © 2023 || All rights are Reserved || Bidyut Kundu
           </p>
         </div>
       </footer>
