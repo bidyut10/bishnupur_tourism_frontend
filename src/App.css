@@ -118,7 +118,7 @@ body {
 /* --------------------------------------------Ticketpage--------------------------------------------*/
 .ticket_section {
   justify-content: center;
-  padding: 0px 40px;
+  padding:80px;
 }
 .tick_container {
   width: 50%;

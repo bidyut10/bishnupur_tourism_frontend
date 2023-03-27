@@ -4,7 +4,6 @@ import Lottie from "lottie-react";
 import tick from "../animations/Tickets.json";
 import ticket from "../assets/ticket.png";
 import tick_book from "../animations/42796-take-a-ticket.json";
-import "../App.css";
 
 const TicketPage = () => {
   const navigate = useNavigate();
@@ -13,9 +12,9 @@ const TicketPage = () => {
   };
   return (
     <div>
-      <div id="ticket" className="ticket_section flex_box bg-white">
-        <div className="ticket_section flex_box">
-          <div className="tick_container">
+      <div id="ticket" className="ticket_section flex bg-white">
+        <div className="flex flex-col w-full md:flex-row md:justify-between">
+          <div className="tick_container w-full md:w-1/2 md:px-8 lg:px-16">
             <h1 className="text-5xl font-bold">
               Ultimate Nature Adventure Package: Camping, Food, and Exploration
             </h1>
@@ -32,7 +31,7 @@ const TicketPage = () => {
               Click Here To Order
             </button>
           </div>
-          <div className="tick_container1">
+          <div className="tick_container1 w-full md:w-1/2">
             <Lottie
               className="max-w-sm ticket"
               animationData={tick}

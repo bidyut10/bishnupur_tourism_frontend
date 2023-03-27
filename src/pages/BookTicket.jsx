@@ -132,9 +132,6 @@ const BookTicket = () => {
                   className="input input-bordered"
                   required
                 />
-                {inputs.bookingDate === "" && (
-                  <span className="input-hint">YYYY-MM-DD</span>
-                )}
               </div>
               <div className="form-control">
                 <label className="label">
