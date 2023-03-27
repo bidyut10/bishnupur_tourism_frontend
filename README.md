@@ -30,12 +30,22 @@ Bishnupur Tourism is a full day tour booking website that offers top places to v
 - Admin can login using predefined email and password
 - Admin can view order details by giving order id
 - Admin can cancel and checkin orders
-- Front end made using Vite, React JS, Tailwind CSS, and JavaScript
-- Front end hosted on Netlify
-- Back end made using Node JS, Express JS, and JWT for authentication
-- API testing done using Postman
-- Database used: MongoDB
-- Nodemailer used for sending order details to the user given email
+
+## Tech Stack
+
+- Front end: Vite, React JS, Tailwind CSS, and JavaScript
+- Front end hosting: Netlify
+- Back end: Node JS, Express JS, and JWT for authentication
+- Back end hosting: Railway
+- API testing: Postman
+- Database: MongoDB
+- Email service: Nodemailer
+
+The front end of the website is built using Vite, React JS, Tailwind CSS, and JavaScript. The website is hosted on Netlify, which provides a fast and reliable hosting solution. 
+
+The back end of the website is built using Node JS and Express JS, with JWT used for authentication. The back end is hosted on Railway, which is a platform that provides easy deployment and scaling for Node JS apps.
+
+The API endpoints are tested using Postman, which is a popular tool for testing APIs. The data is stored in a MongoDB database, which is a popular NoSQL database. Nodemailer is used for sending order details to the user via email.
 
 
 ## Contact
