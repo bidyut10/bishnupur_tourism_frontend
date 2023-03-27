@@ -49,7 +49,7 @@ const ComplainFrom = () => {
           <h1 className="text-5xl font-bold">Having Any Problem?</h1>
           <img src={contact} alt="contact" className="contact_img" />
         </div>
-        <div className="card flex-shrink-0 w-full max-w-md shadow-2xl bg-base-100 varela">
+        <div className="card flex-shrink-0 w-full max-w-xl shadow-2xl bg-base-100 varela">
           <form
             className="card-body"
             onSubmit={handleSubmit}
